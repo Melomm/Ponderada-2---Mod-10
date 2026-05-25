@@ -6,8 +6,6 @@ Este projeto implementa uma atividade de SwiftUI com uma lista de programas e um
 
 A tela inicial mostra três programas: Naruto, Avatar: A Lenda de Aang e Stranger Things. Cada card apresenta o tipo, nome, gênero, avaliação e um ícone visual. Ao tocar em um card, o app abre a tela de detalhes do programa selecionado.
 
-O projeto também segue a proposta de “ir além” da atividade. Em vez de criar três telas de detalhe separadas, foi criada uma única `ProgramaDetailView`, que recebe um `Programa` como parâmetro e monta a tela com os dados corretos. A lista também usa `ForEach` para gerar os cards a partir de um array de programas.
-
 Foram criados componentes reutilizáveis para evitar repetição de layout:
 
 - `ShowCard`: card usado na tela principal.
